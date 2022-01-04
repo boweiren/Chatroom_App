@@ -1,0 +1,76 @@
+@media screen and (min-width: 1024px) {
+    #app-view {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #app-view {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #app-view {
+        width: 100vw;
+    }
+}
+
+#page-view {
+    margin-top: 30px;
+}
+
+div.message-list {
+    display: flex;
+    flex-direction: column; 
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.message-list > .message:not(.my-message) {
+    text-align: left;
+    background-color: sandybrown;
+}
+
+.message-list > .my-message {
+    background-color: azure;
+    text-align: right;
+}
+
+#app-menu {
+    background-color: aqua;
+    column-count: 2;
+}
+
+#app-menu a {
+    float: left;
+    text-align: center;
+    width: 50%;
+    display: block;
+    color: white;
+}
+
+#app-menu a:hover {
+    background-color: blue;
+    color: red;
+}
+
+#app-menu a img {
+    width: 20px;
+    height: 20px;
+}
+
+.room-list img {
+    width: 40px;
+    height: 40px;
+}
+
+.room-list a {
+    display: block;
+}
+
+.room-list a:hover {
+    display: block;
+    background-color: blue;
+    color: white;
+}
